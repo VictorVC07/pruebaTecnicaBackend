@@ -6,7 +6,7 @@ Bienvenidos al microservicio hecho en Java 11 utilizando maven y como base de da
 Ejecutamos el backend en mi caso utilicé Spring Tool Suite 4, despues ingresamos a postman y realizamos las peticiones de prueba
 #
 ### Backup
-[Descargar Backup Base de datos - PostgreSQL](https://drive.google.com/file/d/1TFXh-f1Bm3QdBSoYFQa5ifDIeO7bkqhn/view?usp=drive_link)
+[Descargar Backup Base de datos - PostgreSQL](https://drive.google.com/file/d/1TFXh-f1Bm3QdBSoYFQa5ifDIeO7bkqhn/view?usp=sharing)
 #
 ### Local
 * [Java 11 SDK](https://www.oracle.com/co/java/technologies/javase/jdk11-archive-downloads.html)
