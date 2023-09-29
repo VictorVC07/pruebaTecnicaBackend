@@ -2,6 +2,8 @@
 # Prueba entrevista
 
 Bienvenidos al microservicio hecho en Java 11 utilizando maven y como base de datos PostgresQL.
+
+Ejecutamos el backend en mi caso utilicé Spring Tool Suite 4, despues ingresamos a postman y realizamos las peticiones de prueba
 #
 ### Backup
 [Descargar Backup Base de datos - PostgreSQL](https://drive.google.com/file/d/1TFXh-f1Bm3QdBSoYFQa5ifDIeO7bkqhn/view?usp=drive_link)
