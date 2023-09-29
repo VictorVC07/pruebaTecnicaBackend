@@ -1,3 +1,4 @@
+
 # Prueba entrevista
 
 Bienvenidos al microservicio hecho en Java 11 utilizando maven y como base de datos PostgresQL.
@@ -12,8 +13,8 @@ Bienvenidos al microservicio hecho en Java 11 utilizando maven y como base de da
 Puerto: 8080
 #
 #### endpoints
-##### messages
-- /api/messages/send *POST*
+##### *messages*
+- /api/messages/send **POST**
     - Descripcion:
     Guarda la conversacion de un usuario con el creador del post.
     - Body de ejemplo:
@@ -44,7 +45,7 @@ Puerto: 8080
         }
     }
     ```
-- /api/messages/post/{postId}/{userId}?page={numPage}&size={numSize} *GET*
+- /api/messages/post/{postId}/{userId}?page={numPage}&size={numSize} **GET**
 
     - Descripcion:
     Lista por paginacion las conversaciones que tuvo un usuario con el publicador del post
@@ -86,9 +87,9 @@ Puerto: 8080
         }
     ]
     ´´´
-##### posts
-- /api/posts/create *POST* (prueba)
-- /api/posts/all *GET* (prueba)
+##### *posts*
+- /api/posts/create **POST** (prueba)
+- /api/posts/all **GET** (prueba)
 
 # Author
 Victor Alonso Vargas Callejas
