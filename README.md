@@ -13,7 +13,6 @@ Puerto: 8080
 #
 #### endpoints
 ##### messages
-```
 - /api/messages/send *POST*
     - Descripcion:
     Guarda la conversacion de un usuario con el creador del post.
@@ -44,7 +43,7 @@ Puerto: 8080
             "content": "Contenido 1"
         }
     }
-    
+    ```
 - /api/messages/post/{postId}/{userId}?page={numPage}&size={numSize} *GET*
 
     - Descripcion:
@@ -55,7 +54,7 @@ Puerto: 8080
     userId = el id del usuario que está interesado en el post
     numPage = numero de pagina a mostrar, por default es 0 (primera pagina)
     size = tamaño de la conversacion a mostrar por pagina, por default es 15
-    
+    ```
     - response:
     ```bash
         [
