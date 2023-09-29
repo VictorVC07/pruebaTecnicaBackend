@@ -13,12 +13,12 @@ Puerto: 8080
 #
 #### endpoints
 ##### messages
-´´´
+
 - /api/messages/send *POST*
     - Descripcion:
     Guarda la conversacion de un usuario con el creador del post.
     - Body de ejemplo:
-    bash
+    ```bash
     {
         "senderUserId":2,
         "receiverUserId":1,
@@ -30,7 +30,7 @@ Puerto: 8080
     }
     
     -- Response:
-    bash
+    ```bash
     {
         "id": 1,
         "senderUserId": 2,
@@ -50,7 +50,7 @@ Puerto: 8080
     - Descripcion:
     Lista por paginacion las conversaciones que tuvo un usuario con el publicador del post
     - parametros:
-    bash
+    ```bash
     postId = el id del post
     userId = el id del usuario que está interesado en el post
     numPage = numero de pagina a mostrar, por default es 0 (primera pagina)
